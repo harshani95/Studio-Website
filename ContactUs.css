@@ -1,0 +1,146 @@
+
+*
+
+
+header{
+    background: rgba(0,0,100,0.5);
+        height: 85px;
+}
+     
+.nav{
+    background: rgba(0,0,0,.5);
+    height: 85px;
+    
+} 
+
+.logo{
+    margin: 10px 50px;
+    height: 60px;
+}
+
+.menu{
+    float: right;
+    list-style: none;
+    margin: 20px;
+    
+}
+
+.menu li{
+    display: inline-block;
+    margin: 10px 5px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #fff;
+    
+}
+
+.menu li a:hover{
+    background: coral;
+    border-bottom: 1px solid coral;
+    transition: .4s;
+}
+/*form*/
+body{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background: linear-gradient(rgba(0,0,50, 0.5),rgba(0,0,50, 0.5)),url(ContactUs.jpg);
+	background-size: cover;
+	background-position: cener;
+	font-family: sans-serif;
+}
+
+.contact-title
+{
+	margin-top: 100px;
+	color:#fff;
+	text-transform: uppercase;
+	transition: all 4s ease-in-out;
+}
+.contact-title h1
+{
+	font-size: 32px;
+	line-height: 10px;
+}
+.contact-title h2
+{
+	font-size: 18px;
+	
+}
+
+form
+{
+	margin-top: 50px;
+	transition: all 4s ease-in-out;
+}
+.form-control
+{
+	width: 600px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 16px;
+}
+
+input
+{
+	height: 45px;
+}
+form .submit
+{
+	background: #ff5722;
+	border-color: transparent;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+}
+
+/*form end*/
+
+footer{
+    background: rgba(0,0,100,0.5);
+        height: 82px;
+		
+}
+
+.nav1{
+    background: rgba(0,0,0,.5);
+	height: 82px;
+} 
+.menu1{
+    float: right;
+    list-style: none;
+    margin: 20px;
+}
+
+.btn{
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 2px;
+    margin: 5px;
+    padding: 7px 28px;
+    text-decoration: none;
+    border: 1px solid coral;
+    border-radius: 25px;
+}
+ 
+.btn1{ 
+    background: coral;
+    color: #fff;
+}
+.btn2:hover{
+    background: coral;
+    transition: .4s;
+}
